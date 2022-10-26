@@ -34,6 +34,16 @@ body{
 .registro{
     margin-top: 120px;
 }
+.texto{
+    margin: 130px;
+}
+aside{
+    margin-top: 120px;
+}
+.diccionario{
+    margin: 10px;
+    margin-right: 0%;
+}
 .div{
     display: flex;
     align-items: center;
@@ -42,7 +52,8 @@ body{
 }
 a{
     text-decoration: none;
-    color: #fbfadf;
+    list-style: none;
+    color: #2D3142;
     text-align: center;
 }
 .navbarPrincipal{
