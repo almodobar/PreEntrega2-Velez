@@ -53,8 +53,14 @@ aside{
 a{
     text-decoration: none;
     list-style: none;
-    color: #ced1e0;
+    color: #fbfadf;
     text-align: center;
+}
+li a{
+    text-decoration: none;
+    list-style: none;
+    color: #8b8817;
+    text-align: justify;
 }
 .navbarPrincipal{
     margin: 15px;
