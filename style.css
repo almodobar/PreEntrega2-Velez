@@ -43,6 +43,7 @@ aside{
 .diccionario{
     margin: 10px;
     margin-right: 0%;
+    margin-left: 280px;
 }
 .div{
     display: flex;
