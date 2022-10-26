@@ -35,10 +35,11 @@ body{
     margin-top: 120px;
 }
 .texto{
-    margin: 130px;
+    margin: 100px;
 }
-aside{
+.asidePropio{
     margin-top: 120px;
+    margin-left: 30px;
 }
 .diccionario{
     margin: 10px;
@@ -160,4 +161,36 @@ li a{
 .icon:hover .icon5,
 .icon:hover .icon6{
     transform: translateX(400px);
+}
+
+@media screen and (max-width: 1000px) {
+    .divfoto{
+        display: none;
+    }
+    .asidePropio{
+        display: none;
+    }
+    .registro{
+        margin-top: 170px;
+    }
+    .texto{
+        margin-top: 170px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .divfoto{
+        display: none;
+    }
+    .asidePropio{
+        display: none;
+    }
+    .registro{
+        margin-top: 350px;
+    }
+    .texto{
+        margin-top: 350px;
+    }
+    
 }
